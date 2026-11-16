@@ -1,0 +1,44 @@
+/* Small custom CSS: Bootstrap handles the layout and responsiveness. */
+body {
+  font-family: system-ui, Arial, sans-serif;
+}
+.logo{
+    height: 45px;
+    width: 160px;
+    
+}
+.hero-img {
+  height: 520px;
+  object-fit: cover;
+  filter: brightness(55%);
+}
+.carousel-caption {
+  bottom: 25%;
+}
+.service-img {
+  height: 190px;
+  object-fit: cover;
+}
+.page-header {
+  background: linear-gradient(120deg, #09203f, #1c6e8c);
+  padding: 75px 0;
+}
+.footer-link {
+  color: #adb5bd;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer-link:hover {
+  color: #0dcaf0;
+}
+@media (max-width: 576px) {
+  .hero-img {
+    height: 380px;
+  }
+  .carousel-caption {
+    bottom: 12%;
+  }
+  .carousel-caption h1 {
+    font-size: 1.8rem;
+  }
+}
